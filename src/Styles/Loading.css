@@ -1,0 +1,13 @@
+.loading-gif{
+    width: 50%;
+}
+
+.loading-gif-container{
+  display: flex;
+  justify-content: center;
+}
+
+.loading-title{
+  padding-top:30px;
+  text-align: center;
+}

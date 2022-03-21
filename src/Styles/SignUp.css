@@ -1,0 +1,32 @@
+.wrong-credentials{
+  color:red;
+  margin-top: -3px !important;
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+.disabled-btn{
+  cursor:default;
+  background-color:#ddb8fd
+}
+
+.password-requirements-container{
+  margin-top: 30px;
+
+}
+
+.meets-prop{
+  color:green;
+}
+
+.prop-container{
+  font-size:0.9rem;
+}
+
+.does-not-meet-prop{
+  color:red;
+}
+
+.prop-icon-container{
+  margin-right: 10px;
+}

@@ -1,0 +1,111 @@
+.questions-container{
+  padding-top: 80px;
+}
+
+.questions-cards-container{
+  margin-top: 90px;
+  margin-left: 20%;
+  border:1px solid #e8e8e8;
+  width: 60%;
+  padding:10px;
+  border-radius:10px;
+  -webkit-box-shadow: 0px 0px 9px 0px #878787;
+box-shadow: 0px 0px 9px 0px #878787;
+
+}
+
+.question-card-person-image{
+  width: 35px;
+  height: 35px;
+}
+
+.question-card-header{
+  display: flex;
+  border-bottom: 1px solid #adadad;
+  padding-bottom: 10px;
+}
+
+.question-person-name-header{
+   margin-left:10px;
+   font-size: 1.5rem;
+}
+
+.question-card-body{
+  margin-top:20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.question-text{
+  font-size: 1.3rem;
+}
+
+.questions-replies-sections{
+  margin-top: 10px;
+  border-top: 1px solid #adadad;
+}
+
+.card-reply{
+  margin-left: 10px;
+  padding-top: 30px;
+}
+
+.question-card-replies-title{
+    margin-left:10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.question-card-reply-person-image{
+  width: 20px;
+  height: 20px;
+}
+
+.card-reply-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-reply-username{
+
+  margin-left:10px;
+  font-weight: bold;
+}
+
+.question-card-reply-text{
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+
+.questions-reply-container{
+  margin-top:20px;
+}
+
+.question-btn-post-reply{
+  margin-left: 20px !important;
+  margin-top:10px !important;
+}
+
+@media only screen and (min-width:1200px){
+  .questions-form{
+      width: 60%;
+  }
+}
+
+@media only screen and (max-width:1200px){
+  .questions-cards-container{
+    width: 73%;
+  }
+  .question-btn-post-reply{
+    margin-top: 0px !important;
+
+  }
+}
+
+@media only screen and (max-width:700px){
+  .questions-cards-container{
+    width: 85%;
+    margin-left:10%;
+  }
+}

@@ -1,0 +1,109 @@
+.settings-container{
+  padding-top: 90px;
+  margin-left: 30px;
+
+}
+
+.settings-card{
+  border-top:1px solid #cfcfcf;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.settings-header-icon{
+  font-size: 2.9rem;
+  color:#0a85f0;
+}
+
+.user-settings-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.user-settings-header-title{
+  margin-left: 20px;
+}
+
+.user-settings-bkg-img{
+  width: 50%;
+}
+
+.user-settings-person-main-photo{
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.user-main-image-btn{
+  margin-left: -60px;
+  margin-top: -40px !important;
+}
+
+.settings-action-container{
+  margin-left: 20px;
+  margin-top:30px;
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.change-name-input{
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+
+
+.browse-btn-text{
+  margin-left: 5px;
+}
+
+.browse-img-btn{
+  /* margin-top:10px; */
+  background-color: red;
+  padding:10px;
+  color:#fff;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  font-size: 1.4rem;
+}
+
+.btn-left-margin{
+  margin-left: 10px !important;
+}
+
+.settings-select-input{
+  margin-top:10px;
+  float: left;
+}
+
+.sub-note{
+  margin-top:20px;
+  font-size:1.3rem;
+}
+
+.img-load-error{
+  color:red;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.load-success{
+   color:green;
+   font-size:1.4rem;
+   font-weight: bold;
+}
+
+.img-sub-msg{
+  margin-bottom: 80px;
+}
+
+.repeat-pass-title{
+  color:#000;
+  font-size: 1.4rem;
+}
+
+.confirm-delete-container{
+  margin-top:20px;
+}

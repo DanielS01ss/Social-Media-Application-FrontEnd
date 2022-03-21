@@ -1,0 +1,9 @@
+.not-found{
+  max-width:100vw;
+  background-size: cover;
+  min-height: 100vh;
+}
+/*
+  style={}
+  {backgroundImage:`url(${Image})`}
+*/
